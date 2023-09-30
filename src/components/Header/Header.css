@@ -1,0 +1,8 @@
+.header {
+    background: linear-gradient(to right, #d7e0ed, #19559f);
+    text-align: center;
+}
+
+.header img{
+    max-width: 100%;
+}
