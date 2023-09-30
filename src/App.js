@@ -16,7 +16,32 @@ function App() {
     name:"Omar A. Cruz Rmz",
     job:"Practicante",
     fav: true
-  }])
+  },
+  {
+    id: uuid(),
+    team:"Front End",
+    photo:"https://github.com/Yaki-55.png",
+    name:"Yakin Senen Méndez Luis",
+    job:"Practicante",
+    fav: true
+  },
+  {
+    id: uuid(),
+    team:"Quantum Algorithms",
+    photo:"https://github.com/leonelSantiago22.png",
+    name:"Leonel Santiago Rosas",
+    job:"Practicante",
+    fav: true
+  },
+  {
+    id: uuid(),
+    team:"Data Science",
+    photo:"https://github.com/RegRob26.png",
+    name:"Emmanuel Guadalupe Robles Robles",
+    job:"Practicante",
+    fav: true
+  }
+])
 
   const [teams, updateTeams] = useState([
     {
@@ -60,6 +85,12 @@ function App() {
       title: "Inovación y Gestión",
       primaryColor: "#FF8A29",
       secondaryColor: "#FFEEDF"
+    },
+    {
+      id: uuid(),
+      title: "Quantum Algorithms",
+      primaryColor: "#000000",
+      secondaryColor: "#191919"
     }
   ])
 
